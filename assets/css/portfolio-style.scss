@@ -1,0 +1,102 @@
+@import "variable";
+@import "fonts";
+@import "css-tree";
+.top{
+    top:-100px;
+}
+.top-pad{
+    padding-top: 100px;
+}
+.top-pad-2{
+    padding: 47px 0;
+    padding-bottom:7px;
+}
+
+.portfolio-content-wrapper{
+    padding: 200px 0;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to bottom, rgba(252, 251, 248, 0), $bg-color1 44%, rgba(252, 251, 248, 0.7));
+    .portfolio-wrap{
+        .portfolio-content{
+
+            .port-img{
+                position: relative;
+
+                &:hover{
+                    cursor: pointer;
+                } 
+
+                &:hover .port-hvr{
+                    cursor: pointer;
+                    bottom:100px;
+                    opacity: 1;
+                }
+                img{
+                    width: 100%;
+                }
+                .port-hvr{
+                    border-radius: 10px;
+                    box-shadow: 2px 44px 107px 0 rgba(0, 0, 0, 0.15);
+                    background-color: $white;
+                    text-align: center;
+                    padding: 15px 0 15px 0;
+                    position: absolute;
+                    bottom: 0px;
+                    left: 35px;
+                    right: 35px;
+                    margin: 0 auto;
+                    opacity: 0;
+                    transition: .5s all;
+                    h4{
+                        font-family: Nunito;
+                        font-size: 30px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: normal;
+                        letter-spacing: -1.89px;
+                        color: $font-color2;
+                    }
+                    p{
+                        opacity: 0.6;
+                        font-family: Karla;
+                        font-size: 14px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: normal;
+                        letter-spacing: 2.1px;
+                        color: $font-color1;
+                    }
+                }
+            }
+        }
+    }
+}
+.portfolio-client-wrapper{
+    .client-wrap{
+        padding: 100px 0;
+    }
+}
+.more-wrap{
+    transition: .3s all;
+    &:hover .more-log-img{
+        transition: .3s all;
+        cursor: pointer;
+        transform: translateY(-20px);
+    }
+    .more-log-img{
+        transition: .3s all;
+        img{
+            border-radius: 50%;
+            transition: .3s all;
+        }
+    }
+    .more-text{
+        padding-top: 20px;
+        transition: .3s all;
+        img{
+            cursor:pointer;
+        }
+    }
+}

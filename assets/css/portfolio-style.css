@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'gilroy-bold.ttf';
+  src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+/*------------- 
+[Table of contents]
+
+[ DEFULT INDEX NUMBER ]
+
+1.  GENERAL CSS
+2.  NAVBAR
+4.  HOME
+5.  SERVICES
+6.  CASE STUDY
+7.  ABOUT US
+8.  CASE STUDY
+9.  TEAM MEMBERS
+10. FEEDBACKS
+11. CONTACT
+12. FOOTER
+13. COPYRIGHT
+
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[ Color codes ]
+    
+    [ Text and Background Color ]
+        Primary Color:                  #177869;     
+        Primary Color Light:            #15b95f;      
+        Hilighted Color:                #fa7b70;
+        Font Color 1:                   #031d3c;      
+        Font Color 2:                   #1e3547;            
+        Border Color:                   #f3efea;
+        Def p:                          #292825;
+        Behance i:                      #0d6bff;
+        Pet Color:                      #005f55;
+        Bg Color1:                      #fcfbf8;
+        Bg Color2:                      #e0fbf6;
+        Yl Color:                       #fec468;
+        Cyan Color:                     #52bdb9;
+        White:                          #ffffff;
+        Black:                          #000000;
+        White Opacity:                  rgba(255,255,255,.7);           
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+    [ There are using two different font typography ]
+        Typography 1: Nunito font;
+        Typography 2: SourceSansPro font;
+        Typography 3: Karla font;
+        Typography 4: Gilroy font;
+
+    [ Other Typography style are same ]
+    Body :
+        font-style:     normal;
+        font-size:      15px;
+
+    h2:
+        font-size: 48px;
+        line-height: 55px;
+
+    h3:
+        font-size: 30px;
+        line-height: 40px;
+
+    h4:
+        font-size: 20px;
+        font-weight: 600;
+
+    p:  
+        font-size: 18px;
+        line-height: 30px;
+
+
+-------------------------------------------------------------------*/
+.top {
+  top: -100px;
+}
+
+.top-pad {
+  padding-top: 100px;
+}
+
+.top-pad-2 {
+  padding: 47px 0;
+  padding-bottom: 7px;
+}
+
+.portfolio-content-wrapper {
+  padding: 200px 0;
+  padding-bottom: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 251, 248, 0)), color-stop(44%, #fcfbf8), to(rgba(252, 251, 248, 0.7)));
+  background-image: linear-gradient(to bottom, rgba(252, 251, 248, 0), #fcfbf8 44%, rgba(252, 251, 248, 0.7));
+}
+
+.portfolio-content-wrapper .portfolio-wrap .portfolio-content .port-img {
+  position: relative;
+}
+
+.portfolio-content-wrapper .portfolio-wrap .portfolio-content .port-img:hover {
+  cursor: pointer;
+}
+
+.portfolio-content-wrapper .portfolio-wrap .portfolio-content .port-img:hover .port-hvr {
+  cursor: pointer;
+  bottom: 100px;
+  opacity: 1;
+}
+
+.portfolio-content-wrapper .portfolio-wrap .portfolio-content .port-img img {
+  width: 100%;
+}
+
+.portfolio-content-wrapper .portfolio-wrap .portfolio-content .port-img .port-hvr {
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 44px 107px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 2px 44px 107px 0 rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  position: absolute;
+  bottom: 0px;
+  left: 35px;
+  right: 35px;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+.portfolio-content-wrapper .portfolio-wrap .portfolio-content .port-img .port-hvr h4 {
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.89px;
+  color: #1e3547;
+}
+
+.portfolio-content-wrapper .portfolio-wrap .portfolio-content .port-img .port-hvr p {
+  opacity: 0.6;
+  font-family: Karla;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  color: #031d3c;
+}
+
+.portfolio-client-wrapper .client-wrap {
+  padding: 100px 0;
+}
+
+.more-wrap {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.more-wrap:hover .more-log-img {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  cursor: pointer;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.more-wrap .more-log-img {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.more-wrap .more-log-img img {
+  border-radius: 50%;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.more-wrap .more-text {
+  padding-top: 20px;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.more-wrap .more-text img {
+  cursor: pointer;
+}
+/*# sourceMappingURL=portfolio-style.css.map */

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="885" viewBox="0 0 1600 885">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="1600" height="885" fill="#177869"/>
+    </clipPath>
+  </defs>
+  <g id="Rectangle_Rectangle_Copy_Mask" data-name="Rectangle + Rectangle Copy Mask" clip-path="url(#clip-path)">
+    <g id="Group_59" data-name="Group 59" transform="translate(1093 -225)">
+      <rect id="Rectangle" width="719" height="194" rx="97" transform="matrix(0.788, -0.616, 0.616, 0.788, 105, 755.661)" fill="#186b62" opacity="0.5"/>
+      <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="589" height="222" rx="97" transform="matrix(0.788, -0.616, 0.616, 0.788, 59.893, 362.731)" fill="#186b62" opacity="0.5"/>
+      <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="719" height="194" rx="97" transform="matrix(0.788, -0.616, 0.616, 0.788, 0, 1248.661)" fill="#186b62" opacity="0.3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="850" viewBox="0 0 1600 850">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="1600" height="850" fill="#fff1f0"/>
+    </clipPath>
+  </defs>
+  <g id="Group_85" data-name="Group 85" clip-path="url(#clip-path)">
+    <rect id="Rectangle" width="719" height="194" rx="97" transform="matrix(0.788, -0.616, 0.616, 0.788, 780, 337.661)" fill="#fee5e3" opacity="0.5"/>
+    <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="589" height="222" rx="111" transform="matrix(0.788, -0.616, 0.616, 0.788, 99, 500.625)" fill="#fee5e3" opacity="0.5"/>
+    <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="719" height="194" rx="97" transform="matrix(0.788, -0.616, 0.616, 0.788, 166, 1014.661)" fill="#fee5e3" opacity="0.5"/>
+    <path id="S" d="M336.342,890C161.444,890,46.476,805.646,0,678.5l144.321-84.354c30.577,79.464,90.507,130.81,196.913,130.81,101.514,0,136.983-42.788,136.983-90.467,0-63.571-57.484-88.022-184.682-124.7C162.667,471.9,35.469,416.882,35.469,254.286,35.469,92.912,170.006,0,316.773,0,457.425,0,565.055,72.129,622.539,191.937L480.664,273.846c-30.577-64.794-77.053-110.027-163.89-110.027-70.938,0-112.522,36.676-112.522,85.577,0,52.569,33.023,80.687,162.667,119.808C502.679,411.992,647,457.225,647,632.047,647,792.2,518.578,890,336.342,890Z" transform="translate(1202 294)" fill="#fee5e3" opacity="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="282" height="80" viewBox="0 0 282 80">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask_Copy" data-name="Mask Copy" d="M0,0H282a0,0,0,0,1,0,0V70a10,10,0,0,1-10,10H10A10,10,0,0,1,0,70V0A0,0,0,0,1,0,0Z" fill="#177869"/>
+    </clipPath>
+  </defs>
+  <g id="Group_60" data-name="Group 60" clip-path="url(#clip-path)">
+    <g id="Group_60-2" data-name="Group 60" transform="translate(-21 -48)">
+      <path id="Rectangle" d="M0,19.443A19.4,19.4,0,0,1,19.394.06L219.09,0A19.4,19.4,0,0,1,238.5,19.413h0a19.349,19.349,0,0,1-19.322,19.311l-199.768.064A19.4,19.4,0,0,1,0,19.371Z" transform="matrix(0.788, -0.616, 0.616, 0.788, 75.692, 147.588)" fill="#186b62" opacity="0.5"/>
+      <path id="Rectangle_Copy_2" data-name="Rectangle Copy 2" d="M0,19.43A19.4,19.4,0,0,1,19.4.046L159.148,0a19.4,19.4,0,0,1,19.407,19.416l0,5.518a19.4,19.4,0,0,1-19.393,19.384l-139.75.049A19.4,19.4,0,0,1,0,24.948Z" transform="matrix(0.788, -0.616, 0.616, 0.788, 0.544, 114.762)" fill="#186b62" opacity="0.5"/>
+      <path id="Rectangle_Copy" data-name="Rectangle Copy" d="M0,19.443A19.4,19.4,0,0,1,19.393.06L208.09,0A19.4,19.4,0,0,1,227.5,19.413h0a19.349,19.349,0,0,1-19.322,19.312l-188.768.064A19.4,19.4,0,0,1,0,19.372Z" transform="matrix(0.788, -0.616, 0.616, 0.788, 158.056, 167.741)" fill="#186b62" opacity="0.3"/>
+    </g>
+  </g>
+</svg>

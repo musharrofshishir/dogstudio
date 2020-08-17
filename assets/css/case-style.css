@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'gilroy-bold.ttf';
+  src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+/*------------- 
+[Table of contents]
+
+[ DEFULT INDEX NUMBER ]
+
+1.  GENERAL CSS
+2.  NAVBAR
+4.  HOME
+5.  SERVICES
+6.  CASE STUDY
+7.  ABOUT US
+8.  CASE STUDY
+9.  TEAM MEMBERS
+10. FEEDBACKS
+11. CONTACT
+12. FOOTER
+13. COPYRIGHT
+
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[ Color codes ]
+    
+    [ Text and Background Color ]
+        Primary Color:                  #177869;     
+        Primary Color Light:            #15b95f;      
+        Hilighted Color:                #fa7b70;
+        Font Color 1:                   #031d3c;      
+        Font Color 2:                   #1e3547;            
+        Border Color:                   #f3efea;
+        Def p:                          #292825;
+        Behance i:                      #0d6bff;
+        Pet Color:                      #005f55;
+        Bg Color1:                      #fcfbf8;
+        Bg Color2:                      #e0fbf6;
+        Yl Color:                       #fec468;
+        Cyan Color:                     #52bdb9;
+        White:                          #ffffff;
+        Black:                          #000000;
+        White Opacity:                  rgba(255,255,255,.7);           
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+    [ There are using two different font typography ]
+        Typography 1: Nunito font;
+        Typography 2: SourceSansPro font;
+        Typography 3: Karla font;
+        Typography 4: Gilroy font;
+
+    [ Other Typography style are same ]
+    Body :
+        font-style:     normal;
+        font-size:      15px;
+
+    h2:
+        font-size: 48px;
+        line-height: 55px;
+
+    h3:
+        font-size: 30px;
+        line-height: 40px;
+
+    h4:
+        font-size: 20px;
+        font-weight: 600;
+
+    p:  
+        font-size: 18px;
+        line-height: 30px;
+
+
+-------------------------------------------------------------------*/
+.owl-theme .owl-nav.disabled + .owl-dots {
+  left: -10px;
+}
+
+.m-btm {
+  margin-bottom: 10px;
+}
+
+.qk1 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.app-wrapper {
+  background-color: #fcfbf8;
+}
+
+.app-wrapper .app-wrap {
+  background-repeat: no-repeat;
+}
+
+.app-wrapper .app-wrap .brand-content-wrap .brand-img-content {
+  margin-right: 50px;
+  margin-top: 0px;
+}
+
+.app-wrapper .app-wrap .brand-content-wrap .brand-img-content img {
+  width: 100%;
+}
+
+.app-wrapper .app-wrap .brand-content-wrap .brand-content .brand-card {
+  background-color: #fec468;
+}
+
+.brand-content-wrap .def-p {
+  padding-bottom: 35px;
+  max-width: 80%;
+}
+
+.ag-wb-wrapper {
+  background-color: #fff1f0;
+}
+
+.ag-wb-wrapper .ag-wrap {
+  background-repeat: no-repeat;
+}
+
+.ag-wb-wrapper .ag-wrap .brand-content-wrap .brand-img-content {
+  margin-right: 50px;
+  margin-top: 100px;
+}
+
+.ag-wb-wrapper .ag-wrap .brand-content-wrap .brand-img-content img {
+  width: 100%;
+}
+
+.ag-wb-wrapper .ag-wrap .brand-content-wrap .brand-content .brand-card {
+  background-color: #fa7b70;
+}
+/*# sourceMappingURL=case-style.css.map */

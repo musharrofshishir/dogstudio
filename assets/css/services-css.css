@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'gilroy-bold.ttf';
+  src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+/*------------- 
+[Table of contents]
+
+[ DEFULT INDEX NUMBER ]
+
+1.  GENERAL CSS
+2.  NAVBAR
+4.  HOME
+5.  SERVICES
+6.  CASE STUDY
+7.  ABOUT US
+8.  CASE STUDY
+9.  TEAM MEMBERS
+10. FEEDBACKS
+11. CONTACT
+12. FOOTER
+13. COPYRIGHT
+
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[ Color codes ]
+    
+    [ Text and Background Color ]
+        Primary Color:                  #177869;     
+        Primary Color Light:            #15b95f;      
+        Hilighted Color:                #fa7b70;
+        Font Color 1:                   #031d3c;      
+        Font Color 2:                   #1e3547;            
+        Border Color:                   #f3efea;
+        Def p:                          #292825;
+        Behance i:                      #0d6bff;
+        Pet Color:                      #005f55;
+        Bg Color1:                      #fcfbf8;
+        Bg Color2:                      #e0fbf6;
+        Yl Color:                       #fec468;
+        Cyan Color:                     #52bdb9;
+        White:                          #ffffff;
+        Black:                          #000000;
+        White Opacity:                  rgba(255,255,255,.7);           
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+    [ There are using two different font typography ]
+        Typography 1: Nunito font;
+        Typography 2: SourceSansPro font;
+        Typography 3: Karla font;
+        Typography 4: Gilroy font;
+
+    [ Other Typography style are same ]
+    Body :
+        font-style:     normal;
+        font-size:      15px;
+
+    h2:
+        font-size: 48px;
+        line-height: 55px;
+
+    h3:
+        font-size: 30px;
+        line-height: 40px;
+
+    h4:
+        font-size: 20px;
+        font-weight: 600;
+
+    p:  
+        font-size: 18px;
+        line-height: 30px;
+
+
+-------------------------------------------------------------------*/
+.logo p {
+  font-family: "gilroy-bold.ttf";
+  font-size: 59.5px;
+  font-weight: 400;
+  letter-spacing: -5.08px;
+  color: white;
+}
+
+.res-hi {
+  color: #000000;
+}
+
+.service-hvr:hover {
+  color: black;
+}
+
+.header-wrapper {
+  margin-top: 75px;
+  background-color: #177869;
+}
+
+.header-wrapper .header-wrap {
+  padding: 60px 0;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-wrapper .header-wrap .section-header {
+  padding-bottom: 0;
+}
+
+.header-wrapper .header-wrap .section-header h5 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.header-wrapper .header-wrap .section-header h2 {
+  color: white;
+}
+
+.what-wrapper {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 251, 248, 0)), color-stop(44%, #fcfbf8), to(rgba(252, 251, 248, 0.7)));
+  background: linear-gradient(to bottom, rgba(252, 251, 248, 0), #fcfbf8 44%, rgba(252, 251, 248, 0.7));
+  padding-bottom: 0;
+}
+
+.logo-wrapper {
+  padding: 100px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 251, 248, 0.7)), to(rgba(252, 251, 248, 0.7)));
+  background: linear-gradient(to bottom, rgba(252, 251, 248, 0.7), rgba(252, 251, 248, 0.7));
+}
+
+.logo-wrapper .section-header h5 {
+  color: #fa7b70 !important;
+}
+
+.bg-text {
+  position: absolute;
+  bottom: 0;
+  opacity: 0.03;
+  left: -45px;
+  font-family: 'gilroy-bold.ttf';
+  font-size: 305.7px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -11.89px;
+  color: #1e3547;
+  z-index: -1;
+  white-space: nowrap;
+}
+
+footer .footer-wrap {
+  background-color: #177869;
+}
+
+footer .footer-wrap .footbg {
+  padding-top: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap {
+  width: 100%;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-text p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-list {
+  margin-top: 30px;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-list h5 {
+  color: white;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-list .footer-ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-list .footer-ul li {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-list .footer-contact {
+  margin-top: 14px;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-list .footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-list .footer-social i.cl-i {
+  margin-top: 20px;
+  margin-right: 15px;
+  font-size: 12px;
+  width: 39px;
+  height: 39px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  color: white;
+  background: #177869;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-list .footer-social i.cl-i:hover {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  color: #177869;
+  background-color: white;
+  cursor: pointer;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .footer-list .footer-social i.cl-if {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .ft-sc {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 30px 0 0 auto;
+}
+
+footer .footer-wrap .footbg .footer-list-content-wrap .ft-sc p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 17px;
+}
+
+footer .footer-wrap .footbg .footer-below {
+  margin-top: 40px;
+}
+
+footer .footer-wrap .footbg .footer-below .foot-wrap .ft-end {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer .footer-wrap .footbg .footer-below .foot-wrap .ft-end h6 {
+  opacity: 0.8;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 40px 0;
+  margin: 0;
+}
+/*# sourceMappingURL=services-css.css.map */

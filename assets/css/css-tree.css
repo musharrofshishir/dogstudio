@@ -1,0 +1,75 @@
+/*------------- 
+[Table of contents]
+
+[ DEFULT INDEX NUMBER ]
+
+1.  GENERAL CSS
+2.  NAVBAR
+4.  HOME
+5.  SERVICES
+6.  CASE STUDY
+7.  ABOUT US
+8.  CASE STUDY
+9.  TEAM MEMBERS
+10. FEEDBACKS
+11. CONTACT
+12. FOOTER
+13. COPYRIGHT
+
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[ Color codes ]
+    
+    [ Text and Background Color ]
+        Primary Color:                  #177869;     
+        Primary Color Light:            #15b95f;      
+        Hilighted Color:                #fa7b70;
+        Font Color 1:                   #031d3c;      
+        Font Color 2:                   #1e3547;            
+        Border Color:                   #f3efea;
+        Def p:                          #292825;
+        Behance i:                      #0d6bff;
+        Pet Color:                      #005f55;
+        Bg Color1:                      #fcfbf8;
+        Bg Color2:                      #e0fbf6;
+        Yl Color:                       #fec468;
+        Cyan Color:                     #52bdb9;
+        White:                          #ffffff;
+        Black:                          #000000;
+        White Opacity:                  rgba(255,255,255,.7);           
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+    [ There are using two different font typography ]
+        Typography 1: Nunito font;
+        Typography 2: SourceSansPro font;
+        Typography 3: Karla font;
+        Typography 4: Gilroy font;
+
+    [ Other Typography style are same ]
+    Body :
+        font-style:     normal;
+        font-size:      15px;
+
+    h2:
+        font-size: 48px;
+        line-height: 55px;
+
+    h3:
+        font-size: 30px;
+        line-height: 40px;
+
+    h4:
+        font-size: 20px;
+        font-weight: 600;
+
+    p:  
+        font-size: 18px;
+        line-height: 30px;
+
+
+-------------------------------------------------------------------*/
+/*# sourceMappingURL=css-tree.css.map */

@@ -1,0 +1,130 @@
+@import "variable";
+@import "fonts";
+@import "css-tree";
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+.blog-content blockquote {
+    margin: 20px 0;
+    border-left: 0px solid transparent;
+    font-size: 22px;
+    line-height: 34px;
+    padding: 0 60px;
+    font-weight: 400;
+    font-style: italic;
+    color: $primary-color-light;
+  }
+  .blog-tags {
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .blog-tags .tags a {
+    font-weight: 500;
+    color: #000;
+  }
+  .blog-tags .tags a:hover {
+    color: $primary-color-light;
+  }
+  .blog-tags .social-share {
+    text-align: right;
+    a{
+        color:$black;
+        transition: .2s all;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+  }
+  .blog-tags .social-share ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  .ch-comment-form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .bd-bottom{
+    border-bottom: 1px solid #bdbdbd;
+    padding: 25px 15px;
+  }
+  .comment {
+    margin: 20px 0;
+    overflow: hidden;
+  }
+  .comment h5 {
+    margin-top: 0px;
+  }
+  .comment h5 span {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .comment a {
+    font-weight: bold;
+    color: $black;
+  }
+  .ch-comment-form h4 {
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.ch-comment-form p {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  opacity: 0.7;
+  font-family: $sourcesanspro;
+  font-size: 16px;
+  font-weight: bold;
+  color: #072544;
+}
+
+.form-control {
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.16);
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 1rem;
+    color: #495057;
+    background-color: $white;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color: transparent;
+    border-color: transparent;
+    height: 48px;
+    line-height: 48px;
+    transition: .3s all;
+    &:focus{
+        outline: 0;
+        border-color:transparent;
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.16);
+    }
+}
+#comment-message{
+    resize:none;
+}
+.mb-2{
+    margin-bottom:20px !important;
+}
+.join-btn2{
+    background-color: $primary-color;
+    border-radius: 0 4px 4px 0;
+    padding: 12.5px 12px;
+    margin-left: -1px;
+    color: white;
+    -webkit-transition: .2s all;
+    transition: .2s all;
+    margin-top: -1px;
+}
+.ev-button{
+    button{
+        color: $white;
+    }
+}

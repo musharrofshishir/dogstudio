@@ -1,0 +1,376 @@
+@font-face {
+  font-family: 'gilroy-bold.ttf';
+  src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+/*------------- 
+[Table of contents]
+
+[ DEFULT INDEX NUMBER ]
+
+1.  GENERAL CSS
+2.  NAVBAR
+4.  HOME
+5.  SERVICES
+6.  CASE STUDY
+7.  ABOUT US
+8.  CASE STUDY
+9.  TEAM MEMBERS
+10. FEEDBACKS
+11. CONTACT
+12. FOOTER
+13. COPYRIGHT
+
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[ Color codes ]
+    
+    [ Text and Background Color ]
+        Primary Color:                  #177869;     
+        Primary Color Light:            #15b95f;      
+        Hilighted Color:                #fa7b70;
+        Font Color 1:                   #031d3c;      
+        Font Color 2:                   #1e3547;            
+        Border Color:                   #f3efea;
+        Def p:                          #292825;
+        Behance i:                      #0d6bff;
+        Pet Color:                      #005f55;
+        Bg Color1:                      #fcfbf8;
+        Bg Color2:                      #e0fbf6;
+        Yl Color:                       #fec468;
+        Cyan Color:                     #52bdb9;
+        White:                          #ffffff;
+        Black:                          #000000;
+        White Opacity:                  rgba(255,255,255,.7);           
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+    [ There are using two different font typography ]
+        Typography 1: Nunito font;
+        Typography 2: SourceSansPro font;
+        Typography 3: Karla font;
+        Typography 4: Gilroy font;
+
+    [ Other Typography style are same ]
+    Body :
+        font-style:     normal;
+        font-size:      15px;
+
+    h2:
+        font-size: 48px;
+        line-height: 55px;
+
+    h3:
+        font-size: 30px;
+        line-height: 40px;
+
+    h4:
+        font-size: 20px;
+        font-weight: 600;
+
+    p:  
+        font-size: 18px;
+        line-height: 30px;
+
+
+-------------------------------------------------------------------*/
+.blog-content {
+  padding: 100px 0;
+  padding-bottom: 40px;
+}
+
+.blog-content .width-full {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+.blog-content .blog-content-inner .btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.blog-content .blog-content-inner .read-btn {
+  margin: 0;
+}
+
+.blog-content .blog-content-inner .read-btn:hover {
+  color: white;
+}
+
+.blog-item {
+  margin-bottom: 60px;
+}
+
+.blog-item img {
+  margin-bottom: 20px;
+}
+
+.blog-item .full_img {
+  width: 100%;
+  height: 481px;
+  border-radius: 5px;
+}
+
+.blog-item .blog-item-content {
+  padding-right: 10%;
+}
+
+.blog-item span {
+  color: #072544;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.7;
+}
+
+.blog-item .span {
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.blog-item .bl-title {
+  font-family: Nunito;
+  font-size: 18px;
+  color: #177869;
+  line-height: 1.25;
+  letter-spacing: -0.27px;
+  opacity: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 15px;
+  margin-top: 2px;
+}
+
+.blog-item a {
+  text-decoration: none;
+}
+
+.blog-item a h2 {
+  font-family: Nunito;
+  font-size: 30px;
+  line-height: 1.1;
+  letter-spacing: -0.41px;
+  color: #1e3547;
+  font-weight: bold;
+  margin: 20px 0;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+.blog-item a h2:hover {
+  color: #177869;
+}
+
+.blog-item p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.01px;
+  color: #292825;
+  margin-bottom: 20px;
+}
+
+.blog-item .btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.blog-sidebar .mail-sub .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-sidebar .mail-sub .form-group .form-control {
+  border-radius: 4px 0 0 4px;
+  outline: 0;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  padding: 20px;
+}
+
+.blog-sidebar .mail-sub .form-group .form-control:focus {
+  outline: 0;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.16);
+}
+
+.blog-sidebar .mail-sub .form-group .join-btn {
+  background-color: #177869;
+  border-radius: 0 4px 4px 0;
+  margin-left: -1px;
+  color: white;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+.blog-sidebar .sidebar-item {
+  margin-bottom: 30px;
+}
+
+.blog-sidebar .sidebar-item ul {
+  padding: 0;
+}
+
+.blog-sidebar .sidebar-item ul li a {
+  text-decoration: none;
+  font-family: Nunito;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.27px;
+  color: #031d3c;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+.blog-sidebar .sidebar-item ul li a:hover {
+  color: #177869;
+}
+
+.blog-sidebar .sidebar-item.popular-posts ul {
+  padding: 0;
+}
+
+.blog-sidebar .sidebar-item.popular-posts ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 90px;
+}
+
+.blog-sidebar .sidebar-item.popular-posts ul li img {
+  width: 80px;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  border-radius: 5px;
+}
+
+.blog-sidebar .sidebar-item.popular-posts ul li span {
+  float: left;
+  opacity: 0.7;
+}
+
+.blog-sidebar .sidebar-item.popular-tags ul {
+  padding: 0;
+}
+
+.blog-sidebar .sidebar-item.popular-tags ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+}
+
+.blog-sidebar .sidebar-item.popular-tags ul li a {
+  padding: 4px 10px;
+}
+
+.blog-sidebar .sidebar-item h4 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600 !important;
+  color: #182D38;
+  font-weight: normal;
+  margin: 20px 0;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.blog-sidebar .sidebar-item ul li {
+  margin: 3px 0;
+  overflow: hidden;
+  display: block;
+}
+
+.blog-sidebar .sidebar-item ul li span {
+  float: right;
+}
+
+.blog-sidebar .sidebar-item ul li h2 {
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.7;
+  font-weight: normal;
+  margin-bottom: 3px;
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card {
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card:hover, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card:hover {
+  cursor: pointer;
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card:hover .blog-img img, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card:hover .blog-img img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-img, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-img {
+  overflow: hidden;
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-img img, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-img img {
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content {
+  padding: 20px 0 20px 30px;
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content h5, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content h5 {
+  opacity: 0.6;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.01px;
+  color: #292825;
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content h4, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content h4 {
+  padding-top: 10px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.27px;
+  color: #031d3c;
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content .blog-box, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content .blog-box {
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.client-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content .blog-box h6, .blog-wrapper .blog-wrap .blog-card-wrap .blog-card .blog-inner .blog-content .blog-box h6 {
+  margin-left: 5px;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.01px;
+  text-align: center;
+  color: #292825;
+}
+/*# sourceMappingURL=blog-css.css.map */

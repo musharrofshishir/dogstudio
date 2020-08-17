@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'gilroy-bold.ttf';
+  src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+/*------------- 
+[Table of contents]
+
+[ DEFULT INDEX NUMBER ]
+
+1.  GENERAL CSS
+2.  NAVBAR
+4.  HOME
+5.  SERVICES
+6.  CASE STUDY
+7.  ABOUT US
+8.  CASE STUDY
+9.  TEAM MEMBERS
+10. FEEDBACKS
+11. CONTACT
+12. FOOTER
+13. COPYRIGHT
+
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[ Color codes ]
+    
+    [ Text and Background Color ]
+        Primary Color:                  #177869;     
+        Primary Color Light:            #15b95f;      
+        Hilighted Color:                #fa7b70;
+        Font Color 1:                   #031d3c;      
+        Font Color 2:                   #1e3547;            
+        Border Color:                   #f3efea;
+        Def p:                          #292825;
+        Behance i:                      #0d6bff;
+        Pet Color:                      #005f55;
+        Bg Color1:                      #fcfbf8;
+        Bg Color2:                      #e0fbf6;
+        Yl Color:                       #fec468;
+        Cyan Color:                     #52bdb9;
+        White:                          #ffffff;
+        Black:                          #000000;
+        White Opacity:                  rgba(255,255,255,.7);           
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+    [ There are using two different font typography ]
+        Typography 1: Nunito font;
+        Typography 2: SourceSansPro font;
+        Typography 3: Karla font;
+        Typography 4: Gilroy font;
+
+    [ Other Typography style are same ]
+    Body :
+        font-style:     normal;
+        font-size:      15px;
+
+    h2:
+        font-size: 48px;
+        line-height: 55px;
+
+    h3:
+        font-size: 30px;
+        line-height: 40px;
+
+    h4:
+        font-size: 20px;
+        font-weight: 600;
+
+    p:  
+        font-size: 18px;
+        line-height: 30px;
+
+
+-------------------------------------------------------------------*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.blog-content blockquote {
+  margin: 20px 0;
+  border-left: 0px solid transparent;
+  font-size: 22px;
+  line-height: 34px;
+  padding: 0 60px;
+  font-weight: 400;
+  font-style: italic;
+  color: #15b95f;
+}
+
+.blog-tags {
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.blog-tags .tags a {
+  font-weight: 500;
+  color: #000;
+}
+
+.blog-tags .tags a:hover {
+  color: #15b95f;
+}
+
+.blog-tags .social-share {
+  text-align: right;
+}
+
+.blog-tags .social-share a {
+  color: #000000;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+.blog-tags .social-share a:hover {
+  color: #177869;
+}
+
+.blog-tags .social-share ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.ch-comment-form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bd-bottom {
+  border-bottom: 1px solid #bdbdbd;
+  padding: 25px 15px;
+}
+
+.comment {
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.comment h5 {
+  margin-top: 0px;
+}
+
+.comment h5 span {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.comment a {
+  font-weight: bold;
+  color: #000000;
+}
+
+.ch-comment-form h4 {
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.ch-comment-form p {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  opacity: 0.7;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #072544;
+}
+
+.form-control {
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.16);
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 1rem;
+  color: #495057;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  background-color: transparent;
+  border-color: transparent;
+  height: 48px;
+  line-height: 48px;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.form-control:focus {
+  outline: 0;
+  border-color: transparent;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.16);
+}
+
+#comment-message {
+  resize: none;
+}
+
+.mb-2 {
+  margin-bottom: 20px !important;
+}
+
+.join-btn2 {
+  background-color: #177869;
+  border-radius: 0 4px 4px 0;
+  padding: 12.5px 12px;
+  margin-left: -1px;
+  color: white;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+  margin-top: -1px;
+}
+
+.ev-button button {
+  color: #ffffff;
+}
+/*# sourceMappingURL=blog-post.css.map */
